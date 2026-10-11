@@ -1,7 +1,5 @@
 {% include-markdown "tutorials/nn_in_cms/Intro.md" %}
 {% include-markdown "tutorials/nn_in_cms/Basics.md" %}
-{% include-markdown "tutorials/nn_in_cms/SampleTreat.md" %}
-{% include-markdown "tutorials/nn_in_cms/Metrics.md" %}
 {% include-markdown "tutorials/nn_in_cms/FullCodes.md" %}
 {% include-markdown "tutorials/nn_in_cms/GPU.md" %}
 {% include-markdown "tutorials/nn_in_cms/Reading.md" %}

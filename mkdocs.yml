@@ -128,28 +128,34 @@ nav:
       - CERN HTCondor: resources/gpu_resources/cms_resources/lxplus_htcondor.md
       - SWAN: resources/gpu_resources/cms_resources/swan.md
       - ml.cern.ch: resources/gpu_resources/cms_resources/ml_cern_ch.md
-  - Tutorials:
-    - NN in CMS: tutorials/nn_in_cms.md
-  - Guides:
     - Software environments:
       - LCG environments: software_envs/lcg_environments.md
       - Using containers: software_envs/containers.md
-    - Optimization:
-      - Model optimization: optimization/model_optimization.md
-      - Feature importance: optimization/importance.md
+  - Guides:
+    - Model architectures:
+      - Neural Network: tutorials/nn_in_cms.md
+      - ParticleNet: inference/particlenet.md
+      - Bayesian Neural Network: training/BayesianNN.md
+      - Autoencoders: training/autoencoders.md
+    - Before training:
+      - Domains: general_advice/before/domains.md
+      - Features: general_advice/before/features.md
+      - Inputs: general_advice/before/inputs.md
+      - Model: general_advice/before/model.md
+      - Losses: general_advice/before/metrics.md
+      - Data Preparation: tutorials/nn_in_cms/SampleTreat.md
       - Data augmentation: optimization/data_augmentation.md
-    - General Advice:
-      - Introduction: general_advice/intro.md
-      - Before training:
-        - Domains: general_advice/before/domains.md
-        - Features: general_advice/before/features.md
-        - Inputs: general_advice/before/inputs.md
-        - Model: general_advice/before/model.md
-        - Metrics & Losses: general_advice/before/metrics.md
-      - During training:
-        - Overfitting: general_advice/during/overfitting.md
-        - Cross-validation: general_advice/during/xvalidation.md
-        - Optimisation problems: general_advice/during/opt.md
+    - During training:
+      - Overfitting: general_advice/during/overfitting.md
+      - Cross-validation: general_advice/during/xvalidation.md
+      - Decorrelation: training/Decorrelation.md
+      - Model optimization: optimization/model_optimization.md
+      - Optimisation problems: general_advice/during/opt.md
+      - Training as a Service: training/MLaaS4HEP.md
+      - Quantization-Aware Training: training/HGQ.md
+    - After training:
+      - Performance Metrics: tutorials/nn_in_cms/Metrics.md
+      - Feature importance: optimization/importance.md
       - After training: general_advice/after/after.md
     - Inference:
       - Direct inference:
@@ -170,13 +176,7 @@ nav:
         - SWAN + AWS: inference/swan_aws.md
       - Integration checklist: inference/checklist.md
       - Performance: inference/performance.md
-      - Successful integrations:
-        - ParticleNet: inference/particlenet.md
-    - Training:
-      - Bayesian Neural Network: training/BayesianNN.md
-      - Decorrelation: training/Decorrelation.md
-      - Training as a Service:
-        - MLaaS4HEP: training/MLaaS4HEP.md
-      - Autoencoders: training/autoencoders.md
-      - HGQ: training/HGQ.md
+    - General Advice:
+      - Introduction: general_advice/intro.md
+
 #    - Benchmarking:
